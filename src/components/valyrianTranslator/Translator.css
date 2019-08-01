@@ -1,0 +1,144 @@
+.inputBox1:focus {
+  outline: none;
+  box-shadow: inset 0px 0px 30px 2px rgba(0, 0, 0, 0.75);
+}
+
+.translate-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inputBox1 {
+  margin-bottom: 0px;
+  flex-grow: 1;
+  height: 200px;
+  width: 100%;
+  font-size: 20px;
+  resize: auto;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 110px;
+  border: 0px;
+  background-color: rgba(0, 0, 0, 0.383);
+  -webkit-backdrop-filter: blur(8px);
+  color: white;
+  min-width: 0;
+  
+}
+
+
+
+
+::placeholder {
+  color: white;
+}
+
+textarea {
+  height: 400px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+textarea.inputBox :after {
+  box-sizing: content-box;
+}
+
+textarea.inputBox :before {
+  box-sizing: content-box;
+}
+
+input {
+  display: flex;
+
+}
+/* input[type="submit" i] {
+  margin-left: 20px;
+} */
+/* .translateBox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+} */
+input.btn-dark {
+  margin: 20px 0px 20px 0px;
+  max-width: 250px;
+  max-height: 150px;
+  align-self: center;
+}
+
+.translate-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.outputText2 {
+  display: flex;
+  /* margin: 40px; */
+  /* width: 90%;
+  flex: 1; */
+  flex-grow: 1;
+  font-size: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  flex-wrap: wrap;
+  /* max-width: 740px; */
+  /* padding: 20px; */
+  padding-left: 20px;
+  margin-top: 0px;
+  border-radius: 5px 0px 0px 5px;
+  background-color: rgba(0, 0, 0, 0.383);
+  /* backdrop-filter: blur(8px); */
+  -webkit-backdrop-filter: blur(8px);
+  color: white;
+  min-height: 80px;
+  /* position: relative; */
+  /* background-color: rgb(226, 226, 226);
+  border-radius: 5px;
+  padding: 10px; */
+}
+
+.output-container {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.ml-auto {
+  height: 200px;
+  margin: 0;
+  border-radius: 0px 5px 5px 0px;
+}
+
+
+.valyrian-background {
+  height: 100vh;
+  width: 100%;
+  background:#2d3b36 url("https://i.imgur.com/Se1jsZr.jpg");
+  position: absolute;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+p {
+  margin-top: -100px;
+}
+
+body {
+  /* background:#2d3b36 url(https://i.pinimg.com/originals/ce/52/b2/ce52b215119d7db38745adf5d5a8a3c4.jpg); */
+  background:#2d3b36 url("https://i.imgur.com/Se1jsZr.jpg");
+  background-repeat:  no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  
+}

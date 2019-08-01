@@ -1,0 +1,43 @@
+.Nav.Link:global(.active) {
+    color: black;
+  }
+
+  .navbar {
+    background: none;
+    z-index: 7;
+  
+  
+  }
+
+
+  .navbar.navbar-dark {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar.navbar-default .navbar-collapse {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.Nav.Link{
+  color: white !important;
+  font-size: 200px !important;
+}
+.navbar-toggler {
+  float: right;
+}
+
+
+.navbar-brand {
+  font-size: 28px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: .5rem;
+  padding-left: .5rem;
+  padding-top: 17.3px;
+  font-weight: bold;
+  }

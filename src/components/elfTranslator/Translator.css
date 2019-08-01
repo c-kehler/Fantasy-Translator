@@ -1,0 +1,126 @@
+.inputBox:focus {
+  outline: none;
+  box-shadow: inset 0px 0px 30px 2px rgba(0, 0, 0, 0.75);
+}
+
+.inputBox {
+  margin-bottom: 0px;
+  flex-grow: 1;
+  height: 200px;
+  width: 100%;
+  font-size: 20px;
+  resize: auto;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 110px;
+  border: 0px;
+  background-color: rgba(0, 0, 0, 0.383);
+  -webkit-backdrop-filter: blur(8px);
+  color: white;
+  min-width: 0;
+  
+}
+
+
+
+::placeholder {
+  color: white;
+}
+
+textarea {
+  height: 400px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-shrink: 2;
+ 
+  flex-grow: 1;
+}
+textarea.inputBox :after {
+  box-sizing: content-box;
+}
+
+textarea.inputBox :before {
+  box-sizing: content-box;
+}
+
+input {
+  display: flex;
+
+}
+/* input[type="submit" i] {
+  margin-left: 20px;
+} */
+/* .translateBox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+} */
+.btn-dark#translatebutton {
+  margin: 20px 0px 20px 0px;
+  max-width: 250px;
+  max-height: 150px;
+  align-self: center;
+}
+
+.output-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.outputText2 {
+  display: flex;
+
+  /* margin: 40px; */
+  /* width: 90%;
+  flex: 1; */
+  /* flex-grow: 1; */
+  font-size: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  flex-wrap: wrap;
+  height: 200px;
+  /* max-width: 740px; */
+  /* margin-right: 10px;
+  margin-left: 10px; */
+  border-radius: 5px 10px 200px 30px;
+  margin-top: 0px;
+  border: 0px;
+  background-color: rgba(0, 0, 0, 0.383);
+  -webkit-backdrop-filter: blur(8px);
+  color: white;
+  min-height: 80px;
+  
+  overflow: scroll;
+  max-width: 800px;
+  -webkit-backdrop-filter: hue-rotate(360deg);
+}
+
+
+
+.elf-background {
+  height: 100vh;
+  width: 100%;
+  background:#2d3b36 url("https://i.imgur.com/PDdrF40.jpg");
+  background-repeat:  no-repeat center center fixed;
+  background-size: cover;
+  position: absolute;
+  background-attachment: fixed;
+}
+
+p {
+  margin-top: -100px;
+}
+
+body {
+  /* background:#2d3b36 url(https://i.pinimg.com/originals/ce/52/b2/ce52b215119d7db38745adf5d5a8a3c4.jpg); */
+
+
+  height: 100vh;
+  overflow: hidden;
+  
+}
