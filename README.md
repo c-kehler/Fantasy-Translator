@@ -8,7 +8,7 @@
 
 
 ## technologies & packages
--React, css, html5
+-Javascript, Reacxt, Flexbox
 
 ## launch/build
 -NPM install, NPM start
