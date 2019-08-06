@@ -1,7 +1,7 @@
 # Fantasy Translator 
 -A fun translation website.
 
-**https://c-kehler.github.io/Fantasy-Translator/**
+**http://fantasytranslator.surge.sh/**
 
 ## description and user story
 -A translation site that queries an api and returns translated text
